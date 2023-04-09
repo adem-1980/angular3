@@ -45,7 +45,7 @@ export class TodoItem{
 
    action;
 
-   constructor(description,action){
+   constructor(description:string,action:Boolean){
 
     this.description=description;
     this.action=action;

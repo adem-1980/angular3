@@ -22,17 +22,10 @@ this.items=[
 this.items2=[
 
     new TodoItem("Kahvalti",false),
-    new TodoItem("Spor",false),
+    new TodoItem("Spor",true),
     new TodoItem("Sinema",false),
     new TodoItem("Ders",false),
     
-    
-    {"description":"Spor","action":"No"},
-    
-    {"description":"Sinema","action":"No"},
-    
-    {"description":"Ders","action":"No"}
-
 ];
     }
 

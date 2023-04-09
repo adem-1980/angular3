@@ -11,4 +11,14 @@ export class AppComponent {
 
   model1=new Model();   
 
+  getUser(){
+
+    return this.model1.user;
+  }
+
+  getItems(){
+
+    return this.model1.items2;
+  }
+
 }

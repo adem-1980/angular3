@@ -1,0 +1,55 @@
+export class Model{
+
+    user;
+    items;
+    items2;
+
+    constructor ()
+    {
+this.user="Aras";
+this.items=[
+
+    {"description":"Kahvalti","action":"No"},
+    
+    {"description":"Spor","action":"No"},
+    
+    {"description":"Sinema","action":"No"},
+    
+    {"description":"Ders","action":"No"}
+
+];
+
+this.items2=[
+
+    new TodoItem("Kahvalti",false),
+    new TodoItem("Spor",false),
+    new TodoItem("Sinema",false),
+    new TodoItem("Ders",false),
+    
+    
+    {"description":"Spor","action":"No"},
+    
+    {"description":"Sinema","action":"No"},
+    
+    {"description":"Ders","action":"No"}
+
+];
+    }
+
+
+}
+
+export class TodoItem{
+
+   description;
+
+   action;
+
+   constructor(description,action){
+
+    this.description=description;
+    this.action=action;
+
+   }
+
+}

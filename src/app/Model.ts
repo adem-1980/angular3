@@ -19,7 +19,7 @@ this.items=[
 
 ];
 
-this.items2=[
+this.items2=[  
 
     new TodoItem("Kahvalti",false),
     new TodoItem("Spor",true),
